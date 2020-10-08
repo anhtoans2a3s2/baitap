@@ -1,0 +1,540 @@
+*{
+    padding: 0px;
+     margin: 0px;
+}
+::placeholder{
+    color: #fff !important;
+    opacity: 1; 
+    padding-left: 3%;
+}
+body{
+    font-size: 13px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+}
+.tong{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.header{
+    width: 100%; 
+    height: 100%;
+    float: left;
+}
+.company{
+    width: 35%;
+    height: 30px;
+    background: rgb(77, 183, 179);
+    padding-left: 65%;
+    
+}
+.company ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.company ul li{
+    display: inline;
+    line-height: 30px;
+    padding-right: 3%;
+}
+/* menu*/
+.menu{
+    width: 100%;height: 125px; background:rgb(255, 255, 255);
+}
+.logo{
+    width: 35%;
+    height: auto;
+    float: left;
+    padding-top: 2%;
+    padding-left: 6%;
+}
+.logo img{
+    width: 30%;
+    height: auto;
+}
+.item-menu{
+    width: 50%;
+    height: 70px;
+    padding-top: 2%;
+    line-height: 30px;
+    float: left;
+}
+.item-menu ul li a{
+    text-decoration: none; color: rgb(35, 45, 62);padding-right: 1%;
+}
+.item-menu a:hover{
+    color: rgb(77, 183, 179);
+}
+.item-menu ul li{
+    display: inline;
+    line-height: 26px;
+    list-style: none;
+}
+
+.nav-bars{
+    width: 28px;
+    height: 28px;
+    color: black;
+    display: none;
+    float: left;
+    padding-top: 2%;
+}
+.nav-overlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: 	rgb(71, 175, 182, 0.9);
+    display: none;
+}
+.nav-mobile{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    transform: translateX(100%);
+}
+.nav-mobile ul li{
+    margin-top: 24px;
+    list-style: none;
+}
+.nav-mobile ul li a{
+    text-decoration: none ;
+    color: #ffffff;
+    padding: 8px 0;
+    font-size: 1rem;
+    display: block;
+    list-style: none;
+    text-align: center;
+}
+.nav-closed{
+    width: 28px;
+    height: 28px;
+    color: black;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.nav-input:checked ~ .nav-overlay{
+    display: block;
+}
+.nav-input:checked ~ .nav-mobile {
+    transform: translateX(0%);
+}
+/* end menu*/
+.banner{
+    width: 100%; height: auto;
+}
+.banner-img{
+    width: 100%; height:400px;
+    background-image: url(https://www.annhome.vn/wp-content/uploads/2019/04/vincity-sportia-cover.jpg);
+    background-size: 100% 100%;
+}
+.banner-infor{
+    width: 100%; height: auto; text-align: center;
+}
+.text-banner h4{
+    width: 100%; height: auto;padding-top: 8%; color: #ffffff; font-size: 26px;
+}
+.banner-buton {
+    width: 100%; height: auto;
+}
+.banner-buton a{
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 45px 10px;
+    cursor: pointer;
+    background-color: #19b9c5;
+    border-radius: 30px;
+}
+.banner-buton a:hover{
+    color: black;
+}
+.banner-note {
+    width: 100%;height:225px;background:	rgb(54, 149, 160);
+}
+.background-banner-note{
+    background-size: 100% 100%;
+    display: block;
+}
+.text-note{
+   width: 100%; 
+   height: 225px;
+    margin: auto;
+    max-width: 1200px;
+    background:	rgb(54, 149, 160);
+
+}
+.title{
+   width: 26.33333333333333%;
+   height: 100%;
+   float: left;
+   padding: 3% 3%;
+   color: #ffffff;
+}
+.title span{
+    font-size: 18px;
+}
+
+.title p{
+    padding-top: 5%;
+    font-size: 15px;
+}
+.container{
+    width: 100%; height: auto;
+}
+.layout{
+    width: 100%; height: auto; max-width: 1190px;
+    margin: auto;
+}
+.layout-img{
+    width:29.33333333333333%;
+    height: auto;
+    float: left;
+    padding: 3% 2%;
+}
+.layout-img img{
+    width:355px;
+    height: 200px;
+    margin-bottom: 3%;
+}
+.layout-img a{
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    margin: 6%;
+}
+.layout-img a:hover{
+    color: rgb(54, 149, 160);
+}
+.news{
+    width: 100%; max-width: 1200px;height: auto;text-align: center; margin: auto;
+    padding-top: 3%;
+    font-size: 20px;
+    color: 	rgb(54, 149, 160);
+    padding-left: 3%;
+}
+/**/
+.detail{
+    width: 100%; max-width: 1200px;height: auto; margin: auto;
+}
+.detail-layout{
+    width: 29.33333333333333%;height: auto; max-width: 1200px; float: left;padding: 3% 2%;
+}
+.detail-layout img{
+    width:355px;
+    height: 200px;
+}
+.layout-center-text h4{
+    font-size: 16px;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    color: rgb(120, 181, 190);
+}.layout-center-text h4:hover{
+    color: black;
+}
+.layout-center-text p{
+    font-size: 15px;
+    padding-bottom: 5%;
+}
+.layout-center-text a{
+    border: none;
+  color: white;
+  padding: 13px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; 
+  background-color: #19b9c5;
+  border-radius:22px ;
+  
+}
+.layout-center-text a:hover{
+    background-color: #188a92;
+}
+/**/
+.content{
+    padding-top: 30%;
+    padding-bottom: 23%;
+}
+.content-img{
+    width: 50%;height: auto;float: left;
+}
+.content-img img{
+    width: 100%;height: 400px;
+}
+.content-text{
+    width: 25%; float: left; margin: 3% 5%;
+    padding-right: 15%;
+}
+.content-text h4{
+    padding-bottom: 2%;text-align: center;
+    font-size: 19px;
+}
+.content-text p{
+    font-size: 16px;
+    font-weight: 100;
+}
+.content-text a{
+    border: none;
+  color: white;
+  padding: 13px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4% 28%;
+  cursor: pointer; 
+  background-color: #19b9c5;
+  border-radius:22px ;
+}
+.content-text a:hover{
+    background-color: #188a92;
+}
+.center{
+    width: 98%; height: 100%; background-size: 100% 100%;
+}
+.news h3{
+    width: 95%;
+    margin-top: 0%;
+    float: left;
+    margin-bottom: 4%;
+
+}
+.partner-logo{
+    width: 100%; height: auto; max-width: 1200px; margin: auto;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.item-partner{
+    float: left; padding-left: 10%;
+}
+#clr{
+    clear: both;
+}
+.footer{
+    width: 100%;height: auto;
+    background: rgb(46, 110, 107);
+    background-size: 100% 100%;
+}
+.background-footer{
+    background: rgb(46, 110, 107);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    float: left;
+
+
+}
+.item-footer{
+    width: 100%; height: auto; margin-left: auto; max-width: 1200px; margin: auto;
+}
+.comment-footer{
+    width: 33.3333333%;float: left;
+}
+.comment-footer ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.comment-footer ul li{
+    display: block;
+    line-height: 30px;
+    border-bottom: 1px solid #ffffff;
+    padding-left: 2%;
+    padding-right: 3%;
+    width: 83%;
+
+}
+.comment-footer h4{
+    padding-top: 3%; 
+    border-bottom: 1px solid #ffffff;
+    padding-left: 2%;
+    width: 85%;
+    padding-bottom: 3%;
+    color: #ffffff;
+    font-size: 18px;
+
+}
+.comment-footer a:hover{
+    color: #19b9c5;
+}
+.footer-end{
+    width: 92%;
+    height: auto;
+    margin: auto;
+    background: rgb(46, 110, 107);
+    background-size: 100% 100%;
+    padding-left: 6%;
+}
+.footer-end-detail{
+    width: 35%;
+    height: 100%;
+    padding-top: 3%;
+    float: left;
+    padding-left: 15%
+}
+.footer-end-detail-right{
+    width: 32%;
+    float: left;
+    height: 100%;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 15%;
+}
+.footer-end-detail p{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #ffffff;
+    font-size: 14px;
+}
+.footer-end-detail-right p{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #ffffff;
+}
+.footer-end-detail-right input{
+    width: 70%;
+    line-height: 30px;
+    border-radius: 15px;
+    background: 	rgb(77, 183, 179);
+    color: #ffffff;
+}
+.footer-end-detail-right a{
+    border: none;
+  color: white;
+  padding: 13px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4% 4%;
+  cursor: pointer; 
+  background-color: #19b9c5;
+  border-radius:22px ;
+}
+.footer-end-detail-right a:hover{
+    background: rgb(63, 153, 148);
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .tong{
+        width: 114%; height: auto; margin: 0 1%;
+    }
+    .company{
+        display: none;
+    }
+    .menu{
+        width: 100%; height:60px;text-align: center;
+    }
+    .logo img{
+        width: 99%;
+    
+    margin: auto;
+    margin-left: 74%;
+    margin-top: 7%;
+    }
+    .nav-bars{
+        display: block;float: right;
+    }
+    .nav-mobile{
+        display: block; width: 100%;margin-right: 5%;
+    }
+    .nav-closed{
+        margin-right: 10%;
+    }
+    .nav-mobile ul {
+        text-align: center; padding-top: 45%;
+    }
+    .item-menu{
+        display: none;
+    }
+    .text-banner{
+        width: 100%; height: auto;text-align: center; float: left;
+}
+    .banner-buton{
+        width: 100%; height: auto;text-align: center;
+    }
+    .banner-note{
+        max-height: 500px;
+    }
+    .text-note{
+        width: 100%; height: 100%;text-align: center;
+    }
+    .title{
+        width: 92%;
+        height: 100%;
+        background: rgb(77, 183, 179);
+        background-size: 100% 100%;
+        padding-left: 5%;
+    }
+    .title p{
+        padding-right: 15%;
+    }
+    .layout-img{
+        width: 100%;height: auto; text-align: center;
+    }
+    .layout-img img{
+        width: 100%;height: auto;
+    }
+    .detail-layout{
+        width: 100%;height: auto; text-align: center;
+    }
+    .content-img{
+        width: 80%;
+        height: auto;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .content-img img{
+        width: 100%; height: auto;
+    }
+    
+    .content-text{
+        width: 100%;height: auto;text-align: center;
+    }
+    .content-text p {
+        padding-right: 15%;
+    }
+    .content-text h4{
+        width: 90%;height: auto;
+    }
+    .content-text a{
+        margin: auto;
+        margin-right: 12%;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+    .comment-footer{
+        width: 100%;
+        height: auto;
+        margin-left: 4%
+    }
+    .partner-logo{
+        padding-bottom: 68%;
+    }
+    .footer-end-detail{
+        width: 100%;height: auto; float: right;
+    }
+    .footer-end-detail p{
+        padding-right: 15%;
+    }
+    .footer-end-detail-right{
+        width: 100%;height: auto;
+    }
+    .footer-end-detail-right p{
+        padding-right: 10%;
+    }
+
+}
